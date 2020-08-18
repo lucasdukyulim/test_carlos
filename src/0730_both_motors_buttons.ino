@@ -15,7 +15,7 @@
 // Create VescUart object to provide access to the class functions
 VescUart UART;
 float current = 0.0; // current for hub motors
-float currentBrake = 3.0; // braking current
+float currentBrake = 0; // braking current
 
 // Constants for wifi connection (Spartan Superway settings)
 const char* ssid     = "ATTwvqYWQs";
